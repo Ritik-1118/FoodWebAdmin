@@ -16,8 +16,8 @@ const Orders = () => {
     return <>
         <div className="container mx-4 mt-8">
             <div className=" text-center mb-4">
-                <h2 className="text-5xl font-bold mb-4">Incoming Orders</h2>
-                <hr className="border-4 border-gray-800/90 mx-32"/>
+                <h2 className="text-5xl font-bold mb-4">Total Orders</h2>
+                <hr className="border-2 border-gray-800/90 mx-48"/>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {orders.map((order, index) => (
