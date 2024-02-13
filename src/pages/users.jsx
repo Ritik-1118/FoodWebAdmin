@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const Users = () => {
@@ -43,8 +44,11 @@ const Users = () => {
             phone:"90779842019",
         },
     ]
+    const getAllUsers = async() =>{};
 
-    
+    useEffect(()=>{
+        getAllUsers();
+    },[])
     return <>
         <div className="text-black/80 dark:bg-white/50 min-h-screen">
             <div className=" text-5xl text-center font-bold py-4 bg-white/50 min-w-full  border-gray-600 rounded-xl">
